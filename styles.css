@@ -184,7 +184,7 @@ header{
 
     .navbar__toggle .bar {
         width: 25px;
-        height: 5px;
+        height: 7px;
         margin: 5 px auto;
         transition: all 0.3s ease;
         background: #cb8ff3;
