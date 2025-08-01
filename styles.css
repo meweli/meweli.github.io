@@ -27,7 +27,7 @@ header{
     width: 100%;
     height: 100%;
     z-index: 0;
-    pointer-events: none; /* Ensure it doesn't interfere with clicks */
+    pointer-events: none; 
     overflow: hidden;
   }
 
@@ -174,7 +174,7 @@ header{
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 60vh; /*change if the elements don't fix in the menu*/ 
+        height: 60vh; 
         font-size: 1.6rem;
     }
 

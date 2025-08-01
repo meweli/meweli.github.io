@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects and experience</title>
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <nav class="tabs">
+      <button class="tab-button active" onclick="showTab('experience')">Professional experience</button>
+      <button class="tab-button" onclick="showTab('personal')">Personal projects</button>
+    </nav>
+  </header>
+
+  <main>
+  <section id="experience" class="tab-content active">
+  <h2>Experiencia profesional</h2>
+
+  <div class="card">
+    <h3>Empresa Kirin</h3>
+    <p>III iii iiii</p>
+    <p>Blablabla</p>
+    <p>2022 - 2024</p>
+  </div>
+
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Blablabla</p>
+  </div>
+
+  <hr>
+
+  <h2>Education</h2>
+
+  <div class="card">
+    <h3>Universidad de Suá</h3>
+    <p>Graduada en latitas</p>
+    <p>2017 - 2021</p>
+  </div>
+
+  <div class="card">
+    <h3>Universidad de Boo</h3>
+    <p>Graduada en "wheeeeg"</p>
+    <p>2023</p>
+  </div>
+</section>
+
+    <section id="personal" class="tab-content">
+      <h2>Personal projects</h2>
+      <div class="card">
+        <h3>Kirin y Suá</h3>
+        <p>Blablabla</p>
+        <!--<a href="https://github.com/ellie/clima" target="_blank">Ver en GitHub</a> -->
+      </div>
+      <!-- Agrega más -->
+    </section>
+  </main>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-button').forEach(el => el.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
